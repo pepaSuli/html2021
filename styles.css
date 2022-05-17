@@ -1,8 +1,22 @@
+*
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+	height: 100px;
+	padding: 20px;
+	text-align: right;
+}
+
+
 header {    background-color: antiquewhite;}
 nav {    	background-color: rgb(128, 90, 41);}
 .jobbsav {  background-color:blueviolet;}
 .tartalom {    background-color: rgb(61, 231, 18);}
 footer {    background-color: rgb(227, 215, 250);}
+
 
 
 
