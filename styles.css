@@ -2,17 +2,56 @@
 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body{
+    margin:0;
+}
 header
 {
 	height: 100px;
 	padding: 20px;
 	text-align: right;
+    background-image: url("images/kastely.jpg");
+    background-position-y: -250px;
+
+    color:white;
 }
 
+nav
+{
+    color:goldenrod;
+    padding-left:20px;
+}
 
+nav a
+{
+    color:white;
+    text-decoration: none;
+}
+
+nav li
+{
+    list-style-type: none;
+    padding:10px;
+}
+nav ul
+{
+    padding:0;
+}
+
+nav a:hover li
+{
+    color:rgb(38, 68, 79);
+    background-color: white;
+}
+
+footer
+{
+    text-align: center;
+    min-height: 50px;
+    padding-top:15px;
+}
 header {    background-color: antiquewhite;}
-nav {    	background-color: rgb(128, 90, 41);}
+nav {    	background-color: rgb(38, 68, 79);}
 .jobbsav {  background-color:blueviolet;}
 .tartalom {    background-color: rgb(61, 231, 18);}
 footer {    background-color: rgb(227, 215, 250);}
