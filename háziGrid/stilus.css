@@ -21,4 +21,15 @@ body
     background-color: rgb(224, 95, 207);
     grid-column: 1 / 7;
 }
-
+#container .item2
+{
+    background-color: rgb(95, 224, 127);
+    grid-row: 2 / 7;
+    grid-column: 6;
+}
+#container .item3
+{
+    background-color: rgb(95, 224, 127);
+    grid-row: 6;
+    grid-column: 1 /6;
+}
