@@ -68,10 +68,20 @@ footer
     border-bottom:1px solid rgb(38, 68, 79);
 }
 
+.tartalom{
+    padding:15px;
+}
+
+.tartalom h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+}
+
 header {    background-color: antiquewhite;}
 nav {    	background-color: rgb(38, 68, 79);}
 .jobbsav {  background-color:rgb(213, 217, 255);}
-.tartalom {    background-color: rgb(61, 231, 18);}
+.tartalom {    background-color: rgb(255, 255, 255);}
 footer {    background-color: rgb(227, 215, 250);}
 
 
@@ -116,7 +126,7 @@ footer {    background-color: rgb(227, 215, 250);}
 	header {    grid-column: 1 / 4;}
     nav {       grid-column: 1;}
     .jobbsav{   grid-column: 3;}
-    .tartalom{  grid-column: 2; }
+    .tartalom{  grid-column: 2; grid-row: 2; }
     footer{    grid-column: 1 / 4;}
 }
 
