@@ -50,9 +50,27 @@ footer
     min-height: 50px;
     padding-top:15px;
 }
+
+.infoBox
+{
+    background-color: #99999966;
+    background-color: #999999ff;
+    margin:10px;
+    padding:10px;
+    border: 2px solid #555555;
+    border-radius: 5px;
+}
+
+.infoBox h3
+{
+    margin:0;
+    text-align: center;
+    border-bottom:1px solid rgb(38, 68, 79);
+}
+
 header {    background-color: antiquewhite;}
 nav {    	background-color: rgb(38, 68, 79);}
-.jobbsav {  background-color:blueviolet;}
+.jobbsav {  background-color:rgb(213, 217, 255);}
 .tartalom {    background-color: rgb(61, 231, 18);}
 footer {    background-color: rgb(227, 215, 250);}
 
