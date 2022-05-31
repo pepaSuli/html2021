@@ -77,7 +77,11 @@ footer
     text-align: center;
     font-variant: small-caps;
 }
-
+.tartalom picture *{
+    max-width:30%;
+    float:left;
+    margin-right: 10px;
+}
 header {    background-color: antiquewhite;}
 nav {    	background-color: rgb(38, 68, 79);}
 .jobbsav {  background-color:rgb(213, 217, 255);}
